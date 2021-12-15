@@ -1,0 +1,187 @@
+body {
+  font-family: "Montserrat-Regular", sans-serif;
+  font-weight: 400;
+}
+
+#title {
+  background-color: #ff4c68;
+}
+
+.row h1 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 3.2rem;
+  line-height: 1.1;
+  font-weight: 800;
+  color: #fff;
+}
+
+.container-fluid {
+  padding: 0 15%;
+  padding-top: 3%;
+}
+.navbar {
+  margin-bottom: 3%;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 2rem;
+}
+.nav-item {
+  padding: 0 15px;
+  font-size: 1.2rem;
+}
+.row {
+  padding-top: 7%;
+  padding-left: 15%;
+  padding-right: 15%;
+}
+
+.dbutton {
+  margin-top: 7%;
+  margin-right: 2%;
+}
+
+.col-lg-6 > img {
+  width: 50%;
+  transform: rotate(20deg);
+  padding-top: 7%;
+}
+
+.col-lg-6 > img:hover {
+  transform: rotate(-10deg);
+}
+
+.card-img-top {
+  width: 50%;
+}
+
+#features {
+  padding: 7% 0;
+  background-color: #fff;
+  position: relative;
+  z-index: 1;
+}
+
+.fb > h3 {
+  font-weight: 800;
+}
+
+.fb > img {
+  width: 10%;
+}
+
+.fb > p {
+  color: #8f8f8f;
+}
+
+.fb > i {
+  padding-bottom: 6%;
+  color: #ff4c68;
+}
+
+.fb > i:hover {
+  color: #ef8712;
+}
+
+/* Testimonial section */
+
+#testimonials {
+  text-align: center;
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+.testimonial-text {
+  font-family: "Montserrat-Black";
+  font-weight: 800;
+  font-size: 3rem;
+  line-height: 1.2;
+}
+
+.testimonial-image {
+  border-radius: 50%;
+  width: 9%;
+  margin: 20px;
+}
+
+@media screen and (max-width: 600px) {
+  .testimonial-text {
+    font-family: "Montserrat-Black";
+    font-weight: 800;
+    font-size: 2rem;
+    line-height: 1.2;
+  }
+}
+/* Press */
+#press {
+  text-align: center;
+  background-color: #fff;
+  padding-bottom: 3%;
+  padding-top: 1%;
+}
+.press-img {
+  width: 13%;
+  padding: 0 1%;
+  margin-bottom: 2%;
+}
+.press-text {
+  font-weight: 800;
+  padding: 2% 0;
+  color: #000;
+}
+
+/* Pricing */
+
+#pricing {
+  text-align: center;
+  padding-top: 7%;
+  padding-bottom: 5%;
+}
+.card-header {
+  font-weight: 800;
+}
+.row {
+  padding-top: 0;
+}
+.column {
+  padding-top: 3%;
+}
+
+h2 {
+  font-weight: 800;
+}
+
+/* cta */
+
+#cta {
+  background-color: #ff4c68;
+  padding: 7% 15% 5%;
+  text-align: center;
+}
+#cta > h3 {
+  font-weight: 800;
+  color: #fff;
+}
+
+.db {
+  margin-top: 3%;
+}
+
+/* Footer */
+#footer {
+  text-align: center;
+  padding-top: 3%;
+}
+
+.icon-f {
+  padding: 0 1%;
+  color: #ff4c68;
+}
+.p {
+  margin-top: 6px;
+}
